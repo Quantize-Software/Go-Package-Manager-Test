@@ -1,5 +1,7 @@
-package hello
+package main
 
-func Hello() string {
-	return "Hello, world."
+import "fmt"
+
+func main() {
+	fmt.Println("Hello World from go main function in github package!")
 }
