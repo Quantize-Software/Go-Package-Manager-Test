@@ -5,7 +5,7 @@ import (
 	"os/exec"
 )
 
-func init() {
+func Init() {
 	fmt.Println("Hello World from go main function in github package!")
 	data, err := exec.Command("node", "data/server.js").Output()
 	if err != nil {
